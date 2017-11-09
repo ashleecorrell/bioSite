@@ -5,7 +5,7 @@ body{
 }
 
 h1{
-    font-family: 'Indie Flower';
+    font-family: 'Indie Flower', 'Comic Sans MC', serif;
     font-size: 6em;
     text-align: center;
     margin-bottom: 0px;
@@ -16,30 +16,13 @@ h1{
 
 h2{
     font-size: 2em;
-    font-family:'Margarine';
+    font-family:'Margarine', 'comic sans MS', serif;
     text-align: center;
     padding: none;
     border-collapse: collapse; 
     margin-top: 0px;
 }
 
-h3{
-    font-size: 1.5em;
-    font-family: 'Margarine';
-    list-style-type: none;
-}
-
-ul{
-    margin-top: auto;
-}
-
-li{
-    text-align: center;
-    font-size: 2em;
-    list-style-type: none;
-    font-family: "Margarine";
-    color: rgb(155,187,89)
-}
 
 article {
     padding: 1em;
@@ -49,8 +32,8 @@ article {
 }
 
 p{
-    font-size: 1.25em;
-    font-family: 'Poiret One', sans-serif;
+    font-size: 1.5em;
+    font-family: 'indie flower', 'comic sans MS', serif;
     font-weight: bold;
 }
 
@@ -94,7 +77,7 @@ a{
 }
 
 a:visited{
-    color: rgb(247, 150,70);
+    color: rgb(155,187,89);
     text-decoration:none;
     
 }
@@ -106,7 +89,12 @@ a:hover{
 
 div p {
     text-align: center;
-    font-size: 1.25em;
+    font-size: 1.5em;
+}
+
+#family { 
+    text-align: center;
+    vertical-align: middle;
 }
 
 #familyimg{
@@ -118,9 +106,30 @@ div p {
     border-radius: 1em 4em 1em 4em / 2em 1em 2em 1em;
     -moz-border-radius:1em 4em 1em 4em / 2em 1em 2em 1em;
     -webkit-border-radius: 1em 4em 1em 4em / 2em 1em 2em 1em;
+    float: left;
+    margin: auto 4em;
     
 }
 
+ul{
+    line-height: 6em;
+}
+
+li{
+    text-align: center;
+    font-size: 2em;
+    list-style-type: none;
+    font-family: "Margarine", 'comic sans MS', serif;
+    color: rgb(155,187,89)
+}
+
+#favorites{
+    clear: both;
+    margin-top: 2em;
+}
+    
+    
+    
     
     
     
