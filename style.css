@@ -21,6 +21,8 @@ h2{
     padding: none;
     border-collapse: collapse; 
     margin-top: 0px;
+    color: rgb(155,187,89);
+    
 }
 
 
@@ -46,7 +48,7 @@ p{
 }
 
 #img1{
-        margin: auto 4em auto 4em;
+    margin: auto 4em auto 4em;
     }
 
 #img2{
@@ -120,12 +122,39 @@ li{
     font-size: 2em;
     list-style-type: none;
     font-family: "Margarine", 'comic sans MS', serif;
-    color: rgb(155,187,89)
+    color: rgb(31,73,125);
 }
 
-#favorites{
+#faves{
+    float: left;
     clear: both;
-    margin-top: 2em;
+    margin: 4em;
+    text-align: center;
+}
+
+#sisters{
+    width: 400px;
+    height: 500px;
+    padding: 1em;
+    border-style: solid;
+    border-width: 1em;
+    border-color: rgb(207, 150, 148);
+    border-radius: 1em 4em 1em 4em / 2em 1em 2em 1em;
+    -moz-border-radius:1em 4em 1em 4em / 2em 1em 2em 1em;
+    -webkit-border-radius: 1em 4em 1em 4em / 2em 1em 2em 1em;
+    margin-top: 4em;
+    float: right;
+}
+
+hr{
+    clear: both;
+    color: rgb(31,73,125);
+}
+
+address{
+    clear: both;
+    font-size: 1em;
+    line-height: .1em; 
 }
     
     
